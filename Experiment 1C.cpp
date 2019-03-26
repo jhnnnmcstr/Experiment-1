@@ -39,6 +39,6 @@ int main()
 	
 	cout << "Interest is: " << interest << endl;
 
-	-getch();
+	getch();
 	return 0;
 }
