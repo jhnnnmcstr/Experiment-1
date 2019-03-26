@@ -1,6 +1,6 @@
 // The manager of a football stadium wants you to write a program 
 // that calculates the total ticket sales after each game. 
-// There are four types of tickets—box, sideline, premium, and general admission. 
+// There are four types of ticketsâ€”box, sideline, premium, and general admission. 
 // After each game, data is stored in a file in the following form:
 // ticketPrice numberOfTicketsSold
 // ...
@@ -15,6 +15,7 @@
 // Format your output with two decimal places.
 
 #include <iostream>
+#include <conio.h>
 #include <iomanip>
 
 using namespace std;
@@ -52,5 +53,6 @@ int main()
 	
 	cout << "Total Sale Amount: $" << totalsaleamount << endl;
 
+	-getch();
 	return 0;	
 }
