@@ -23,6 +23,6 @@ int main()
 	volume =  grams / density;		
 	cout << "Volume: " << volume << " cubic centimeters" << endl;
 	
-	-getch();
+	getch();
 	return 0;
 }
