@@ -53,6 +53,6 @@ int main()
 	
 	cout << "Total Sale Amount: $" << totalsaleamount << endl;
 
-	-getch();
+	getch();
 	return 0;	
 }
